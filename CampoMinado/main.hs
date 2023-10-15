@@ -1,3 +1,4 @@
+module Main where
 import Mensagens
 import System.Random
 import System.Exit
@@ -199,5 +200,4 @@ menu = do
         Mensagens.menuConsciencia
         exitSuccess
     else do
-        putStrLn "Opção inválida"
-        menu
+        putStrLn "Opção invá"
